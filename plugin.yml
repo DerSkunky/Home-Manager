@@ -1,0 +1,38 @@
+main. me.skunky.main.Main
+author: Skunky
+version: 0.0.1 Alpha
+api-version: 1.15
+name: Home-Manager
+description: Simple Home-Manager, with local and MySQL support
+
+commands:
+  home:
+    description: go to an specific home
+    usage: /<command>
+    aliases: [h]
+    
+  sethome:
+    description: set your home
+    usage: /<command>
+    aliases: [sh]
+    
+  delhome:
+    description: delete an specific home
+    usage: /<command>
+    aliases: [dh]
+    
+  changehome:
+    description: change the coordinates of an home
+    usage: /<command>
+    aliases: [ch]
+    
+  list:
+    description: list all your homes
+    usage: /<command>
+    aliases: [l]
+    
+  clear:
+    description: clear data of an specific Player
+    usage: /<command>
+    aliases: [c]
+    permission: homemanager.admin.clear
