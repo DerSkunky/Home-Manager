@@ -15,6 +15,5 @@ public class Main extends JavaPlugin{
 	}
 	
 	private void integ() {
-		
 	}
 }
