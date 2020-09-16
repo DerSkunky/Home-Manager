@@ -31,7 +31,7 @@ public class Mysql {
 	}
 	
 	public void disconnect() {
-		if() {
+		if(isConnected()) {
 			try {
 				con.close();
 				System.out.println("MySQL Connection successfully closed!");
