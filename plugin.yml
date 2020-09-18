@@ -1,6 +1,6 @@
 main. me.skunky.main.Main
 author: Skunky
-version: 0.0.1 Alpha
+version: 0.0.25 Alpha
 api-version: 1.15
 name: Home-Manager
 description: Simple Home-Manager, with local and MySQL support

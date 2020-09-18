@@ -8,11 +8,11 @@ import java.sql.SQLException;
 
 public class Mysql {
 
-	String host = "localhost";
-	String port = "3306";
-	String database = "test_db";
-	String username = "username";
-	String password = "password";
+	public String host = "localhost";
+	public String port = "3306";
+	public String database = "test_db";
+	public String username = "username";
+	public String password = "password";
 	Connection con;
 	
 	PreparedStatement ps;
